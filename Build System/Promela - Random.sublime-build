@@ -1,6 +1,7 @@
 {
     "file_regex": "^spin: (.*):([0-9]*), (.*)$",
     "selector": "source.promela",
+    "cmd": ["spin", "-X", "'$file_name'"],
 
     "windows":
     {
